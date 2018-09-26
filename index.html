@@ -1,0 +1,240 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>工科创2B Group16</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<style>
+	.title_div_wrapper{
+		position: absolute;
+		width: 100%;
+		height: 50%
+	}
+
+	.title_left_div{
+		position: absolute;
+		left:0%;
+		top:10%;
+		width: 10%;
+		height: 1	00%
+	}
+	
+	.title_right_div{
+		position: absolute;
+		left:15%;
+		width: 65%;
+		height: 100%
+	}
+	
+	</style>
+	<body>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="index.html">工科创2B Group16</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Menu</h2>
+							<ul class="links">
+								<li><a href="index.html">首页</a></li>
+								<li><a href="#group_members">组员简介</a></li>
+								<li><a href="#hardware">硬件部分</a></li>
+								<li><a href="#software">软件部分</a></li>
+								<li><a href="#demo_video">演示视频</a></li>
+								<li><a href="#source_code">相关下载</a></li>
+								
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- 首页 -->
+					<section id="banner">
+						<div class="inner">
+							<div class="title_div_wrapper">
+								<div class="title_left_div">
+									<img src="./images/sjtu.png" alt="校徽" class="icon" width="150",height="150">										
+								</div>
+								<div class="title_right_div">
+									<h2>工科创2B<br> &nbsp&nbsp 控制小车走黑线<br>Group16</h2>								
+								</div>
+							</div>
+							<!-- <img src="./images/sjtu.png" alt="校徽" class="icon" width="100",height="100">
+							<h2>工科创2B<br> &nbsp&nbsp 控制小车走黑线<br>Group16</h2> -->
+							<br><br><br><br><br><br><br><br><br><br><br><br>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<!-- 组员介绍 -->
+						<!-- One -->
+							<section id="one" class="wrapper spotlight style1">
+								<div class="inner" id="group_members">
+									<a href="#" class="image"><img src="images/huang.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">黄柏翰</h2>
+										<p>工科创2B对我来说算是挺有挑战性的东西，它涉及到许多知识的整合，包括硬件上的单片机编程以及软件上的图像处理等，通过识别图像，获取小车位置，使得我们的小车得以走完黑线，较好地完成任务。从一开始的一无所知，到最后小车的成型等等进行了一系列讨论，等等过程一路上颇多艰辛。我是负责硬件部分，除了线材脆弱或者短路等要自己经常跑到电院去焊外，还学到对待硬件需要有耐心，到后面总结出无反应的标准处理流程: 
+											若蓝牙无法连接→拔掉电池重开->仍无法连接->重新配对
+											若蓝牙有连上无反应且发送正常->重考代码
+											若蓝芽连上，重考代码仍然没用且小车有没有发出蠢蠢欲动的声音->线材问题，检查焊接点有没有短路
+											除了以上情况还有电脑重开机就解决，或者重新插上线材就解决等，总而言之，对待硬件要很有耐心，遇到的坑要冷静处理，透过经验的累积，便可获得处理相关方面的知识或方法.</p>
+										<!-- <a href="#" class="special">Learn more</a> -->
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt spotlight style2">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/shi.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">石育玮</h2>
+										<p>这次工科创2B我负责软件代码的部分,一开始装环境遇到非常多坑,采用的是C++/OPENCV,但因为环境太麻烦,之后使用python+opencv,代码写完测试识别效果后,遇到电脑系统崩溃,整个笔记本资料全部不见,最后才以非常快的速度将代码再次写完。这门课让我们学到很多,除了自学能力外,还有遇到问题的解决能力,再加上爆肝的能力。</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="wrapper spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/wu.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">吴雨杭</h2>
+										<p>工科创2B是我第二次参与类似科创项目，此次任务中，我主要负责网页报告部分与小车的调试。一直以来，自己尽管是计算机系的学生，却总是缺乏科创这类项目的实践经验。这次控制小车走黑线的实现中，从小车运行遇到故障到翻阅文档查找资料解决问题，是一个不断踩着坑又倒过去填坑的过程。其中既有调试bug的痛苦，也有最后测试成功的喜悦。此间也多亏有组员的帮助以及之前选修过相关课程的同学的经验分享。相比于其他理论性更强的大学课程，工科创无疑是一门具有明显实践特色的科目，不仅需要代码上的编写，还需要硬件上的组装与调试。从零到有，看着最后成功沿着黑线运行的小车，无疑是一件充满成就感的事情。最后也感谢老师一学期以来的指导以及组员的互相帮助！</p>
+									</div>
+								</div>
+							</section>
+						
+						<!-- Four -->
+							<section id="four" class="wrapper alt spotlight style3">
+								<div class="inner">
+									<a href="#" class="image"><img src="images/zhu.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">朱凤</h2>
+										<p>我是来自电子信息与电气工程学院计算机科学系的大一学生。工科创2B是一门极富挑战性也让我收获颇多的课程。在本次项目中，我主要承担了报告文档写作的任务，同时在学长们的指导下也对OpenCV的图像处理原理有了更深刻的理解，了解并学习了图像采集，透视变换，二值化，目标跟踪与路径搜索等具体的操作方法与技术，在此十分感谢。同时，通过此次项目也大大提升了自己搜索资料，自主学习，解决某一具体问题的能力，感受到编程与工程的魅力。最后，通过报告文档写作，我对整个项目的实现流程背后的逻辑进行了更清晰的梳理，所认识最深的一点是：和平时计算机系的项目不同的是，工科创2B大大地提升了我的工程实践能力，不再仅仅是纸上谈兵，使理论和实践相结合，使硬件和软件相结合，而这也意味着更多的不可控因素的增加，更多偶然性的增加，理论上的正确可能会需要经过上百次的重新调试才能达到实际的理想效果，这是一件富有挑战性也富有成就感的事。</p>
+									</div>
+								</div>
+							</section>
+
+						<!-- 硬件部分 -->
+							<section id="footer">
+								<div class="inner" id="hardware">
+									<h2 class="major">硬件部分</h2>
+									<p>我们的硬件部分主要分为四个模块，分别是小车、单片机、USB摄像头以及蓝牙模块，此外，我们的DIY跑道采用的自制U型黑线跑道。</p>
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/car.png" alt="" height="330"/></a>
+											<h3 class="major">小车</h3>
+											<p>小车使用的是实验室发放的小车，略加外壳起到一定的美观效果。</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/MCU.jpg" alt="" height="330"/></a>
+											<h3 class="major">单片机</h3>
+											<p>此次科创使用的单片机型号是MSP430G2553，通过相关IDE软件向单片机中写入程序，再通过控制相关电机电平实现控制。</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/camera.png" alt="" height="330"/></a>
+											<h3 class="major">USB摄像头</h3>
+											<p>外接的USB摄像头承担采集图像的任务，用于后续利用OpenCV等相关的图像处理库进行进一步的图像处理。</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/bluetooth.jpg" alt="" height="330"/></a>
+											<h3 class="major">蓝牙模块</h3>
+											<p>蓝牙模块采用的是实验室提供的HC-06串行通信模块，主要负责小车与电脑端的控制信号等通信。</p>
+										</article>
+									</section>
+									<p>实现过程中，主要是通过设置小车左右电机的正反转高低电平来控制转速实现小车的转向、后退等动作，例如当左右电机正转电平为高对应小车前进，设置占空比来控制前进、转弯速度，设置delay时间来实现控制小车前进、转弯的时间。</p>									
+								</div>
+							</section>
+
+							<!-- 软件部分 -->
+							<section id="five" class="wrapper alt style1">
+								<div class="inner" id="software">
+									<h2 class="major">软件部分</h2>
+									<p>编译环境： Windows10 + VS2015 + OpenCV3.1.0</p>
+									<p>本次控制小车走黑线任务中，软件部分包括图像采集与预处理、路径计算与姿态跟踪、小车控制与信号的发送以及信号的接受与转化、电机的控制部分四个部分，其中最后信号的接受与转化以及电机的控制部分是在单片机上实现的。具体实现细节可以参考附件中的代码部分</p>
+									<p>控制小车的软件部分的流程图如下：</p>
+									<img src="images/flowchart.png" alt="流程图">
+									<h2 class="major"></h2>									
+									<p>测试中部分截图如下：</p>
+									<section class="features">
+										<article>
+											<a href="#" class="image"><img src="images/s1.jpg" alt="" height="330"/></a>
+											<h3 class="major">原始图像采集</h3>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/s2.jpg" alt="" height="330"/></a>
+											<h3 class="major">路径变换</h3>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/s3.jpg" alt="" height="330"/></a>
+											<h3 class="major">标注路径关键点</h3>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/s4.jpg" alt="" height="330"/></a>
+											<h3 class="major">小车识别与控制</h3>
+										</article>
+									</section>
+								</div>
+							</section>
+					</section>
+
+				<!-- demo video -->
+					<section id="footer">
+						<div class="inner" id="demo_video">
+							<h2 class="major">演示视频</h2>
+							<center>
+								<video src="./videos/demo.mp4" controls="controls"></video>
+							</center>
+							<h2 class="major"></h2>
+							<p>我们的完成过程中，也还存在着以下几个缺点：</p>
+							<ul>
+								<li>硬件部分，组装过程中，线很容易掉落，需要重复补焊</li>
+								<li>连接较不稳定，蓝牙有时候会出现无法连接的情况</li>
+								<li>图像识别部分，环境光的影响有时会造成识别不清楚</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- sources -->
+					<section id="footer" class="wrapper alt style1">
+						<div class="inner">
+							<h2 class="major" id="source_code">相关下载：</h2>
+							<a href="./videos/demo.mp4" download="演示视频.mp4">演示视频</a>
+							<a href="./sources/Source.cpp" download="source.cpp">软件部分代码</a>
+							<a href="./sources/小车代码.ino" download="car.ino">硬件部分代码</a>
+							<p><br><br>最后，感谢老师在一学期以来的悉心指导与诸多帮助，也感谢所有组员的团结协作。</p>
+							<ul class="copyright">
+								<li>&copy;All rights reserved.</li><li>SJTU &nbsp 2018-6 &nbsp 工科创2B &nbsp Group16</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
