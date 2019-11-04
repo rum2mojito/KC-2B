@@ -1,2 +1,2 @@
-# KC-2B
-KC-2B Project
+# SJTU KC2B
+KC2B Final Project
